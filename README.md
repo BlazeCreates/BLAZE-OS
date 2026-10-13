@@ -146,6 +146,6 @@ The goal is to build a compact, portable music player with a clean interface and
 **Made with ESP32 and a love for music.**
 
 
-## 📝 Summary
+## Summary
 
 The ESP32 Mini MP3 Player is a compact, portable music player built for offline entertainment. It combines MP3 playback, a custom TFT interface, physical controls, and original recreational mini-games in one device. The project is developed for personal, non-commercial use, with a focus on learning, creativity, and embedded systems development.
