@@ -1,5 +1,11 @@
 # 🎵 ESP32 Mini MP3 Player
 
+
+![Music interface](img1.jpg)
+
+![Flappy Duck Game](img2.jpg)
+
+
 A compact offline music player built using an ESP32, a 1.8-inch TFT display, and a DFPlayer Mini. It features a custom music-player interface, animated spinning disc, physical controls, and stereo headphone output. Though the headphone output is not outstanding since the internal audio output is still low the code is friendly to use so you can change the name of the OS lol lmao!
 
 ## ✨ Features
@@ -116,6 +122,15 @@ Check the pin numbering against your specific jack's diagram before wiring. Use 
 ## 🔋 Power
 
 Use a suitable charging, protection, and voltage-regulation circuit for the 3.7 V LiPo battery. Do not connect the battery directly to the ESP32's 3V3 pin. Verify the voltage requirements of your exact ESP32 board, TFT display, and DFPlayer Mini before powering the circuit. (Eh just through the charging module connect positive terminal to vin and negative to ground it will work)
+
+
+## 🎮 Game Disclaimer
+
+All games included in this device are created from scratch for personal, recreational, and educational purposes only. They are not intended for commercial use, sale, or distribution for profit. The games are original creations developed for this project.
+
+## Fun Part:
+
+There are 12 games made for this and the player.ino, roadfighter.ino, pacman.ino upload them all together please. with those there are utility apps like timer, stopwatch and weather and time that will connect via WiFI that you have to setup in the code in the starting lines of player.ino. when the sd card is inserted in the DF player the player interface will load and you have to press previous and next button and hold to inter the apps and games interface. And if you do not have an sd card at the moment and still boot up the device will fallback and open the apps and games directly. I haven't put a buzzer for internal game audio but if you can please do. 
 
 ## 🚧 Project Status
 
