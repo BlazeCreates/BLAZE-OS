@@ -1,6 +1,6 @@
 # 🎵 ESP32 Mini MP3 Player
 
-A compact offline music player built using an ESP32, a 1.8-inch TFT display, and a DFPlayer Mini. It features a custom music-player interface, animated spinning disc, physical controls, and stereo headphone output.
+A compact offline music player built using an ESP32, a 1.8-inch TFT display, and a DFPlayer Mini. It features a custom music-player interface, animated spinning disc, physical controls, and stereo headphone output. Though the headphone output is not outstanding since the internal audio output is still low the code is friendly to use so you can change the name of the OS lol lmao!
 
 ## ✨ Features
 
@@ -115,7 +115,7 @@ Check the pin numbering against your specific jack's diagram before wiring. Use 
 
 ## 🔋 Power
 
-Use a suitable charging, protection, and voltage-regulation circuit for the 3.7 V LiPo battery. Do not connect the battery directly to the ESP32's 3V3 pin. Verify the voltage requirements of your exact ESP32 board, TFT display, and DFPlayer Mini before powering the circuit.
+Use a suitable charging, protection, and voltage-regulation circuit for the 3.7 V LiPo battery. Do not connect the battery directly to the ESP32's 3V3 pin. Verify the voltage requirements of your exact ESP32 board, TFT display, and DFPlayer Mini before powering the circuit. (Eh just through the charging module connect positive terminal to vin and negative to ground it will work)
 
 ## 🚧 Project Status
 
