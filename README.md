@@ -15,10 +15,10 @@ A compact offline music player built using an ESP32, a 1.8-inch TFT display, and
 - Offline MP3 playback from a microSD card
 - Custom TFT music-player interface
 - Animated spinning disc during playback
-- Track information and playback progress
+- Track number and playback progress
 - Physical music controls
 - Equalizer presets
-- Repeat-one mode
+- Repeat-one (Loop) mode
 - 3.5 mm stereo headphone output
 - Portable LiPo battery power
 
@@ -28,7 +28,7 @@ A compact offline music player built using an ESP32, a 1.8-inch TFT display, and
 - 1.8-inch ST7735 TFT display (160 × 128 landscape)
 - DFPlayer Mini MP3 module
 - microSD card
-- PJ306 3.5 mm stereo headphone jack
+- PJ306 3.5 mm stereo headphone jack (any type of jack will work)
 - 4 momentary push buttons
 - 3.7 V LiPo battery
 - Suitable battery charging, protection, and voltage-regulation circuit
@@ -132,7 +132,7 @@ All games included in this device are created from scratch for personal, recreat
 
 ## Fun Part:
 
-There are 12 games made for this and the player.ino, roadfighter.ino, pacman.ino upload them all together please. with those there are utility apps like timer, stopwatch and weather and time that will connect via WiFI that you have to setup in the code in the starting lines of player.ino. when the sd card is inserted in the DF player the player interface will load and you have to press previous and next button and hold to inter the apps and games interface. And if you do not have an sd card at the moment and still boot up the device will fallback and open the apps and games directly. I haven't put a buzzer for internal game audio but if you can please do. 
+There are 12 games made for this and the player.ino, roadfighter.ino, pacman.ino upload them all together please. with those there are utility apps like timer, stopwatch and weather and time which will connect via WiFI that you have to setup in the code in the starting lines of player.ino. when the sd card is inserted in the DF player the player interface will load and you have to press previous and next button and hold to inter the apps and games interface. And if you do not have an sd card at the moment and still boot up the device will fallback and open the apps and games directly. I haven't put a buzzer for internal game audio but if you can please do. 
 
 ## 🚧 Project Status
 
